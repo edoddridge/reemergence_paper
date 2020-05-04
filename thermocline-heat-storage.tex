@@ -254,19 +254,19 @@ While our observational analysis is consistent with enhanced vertical mixing dri
 \section{Analysis of an idealized channel model of the ACC and its seasonal ice zone} % (fold)
 \label{sec:analysis_of_an_idealised_channel_model}
 
-We now turn to an idealized channel model of the ACC and its seasonal ice zone to further explore the response of the Southern Ocean to summertime perturbations in the westerly winds. Using a model allows us to diagnose heat budgets and isolate mechanisms driving change.  A snapshot of the winter model state is shown in figure \ref{fig:channel_overview}, which clearly highlights the eddying nature of the flow field.
+We now turn to an idealized channel model of the ACC and its seasonal ice zone to further explore the response of the Southern Ocean to summertime perturbations in the westerly winds. Using a model allows us to diagnose heat budgets and isolate mechanisms driving change.  A snapshot of the model state in October (austral spring) is shown in figure \ref{fig:T_snapshot_3D}, which clearly highlights the eddying nature of the flow field.
 
 The model is a reentrant channel, 3,200 km wide, 1,200 km long, and 4 km deep. The bathymetry for this model consists of a 300 m deep continental shelf at the southern boundary, which then slopes down to a flat bottom at 4,000 m depth for the rest of the domain. The horizontal resolution is 4 km and so resolves the oceanic mesoscale eddy field, which has been shown to play a leading-order role in the dynamics of the Southern Ocean \citep[see e.g.][]{Marshall2003,Marshall2012b,Munday2013}. Further details of our numerical setup can be found in \citet{Doddridge2019a}. While our model includes an interactive sea ice \citep{Losch2010} it lacks an interactive atmosphere, which precludes the study of coupled ocean-atmosphere phenomena. We use a repeating seasonal cycle of surface forcings that are derived from the Co-ordinated Ocean-Ice Reference Experiments (CORE) Corrected Normal Year Forcing Version 2.0 (CNYF) \citep{Large2004}.
 
 The MITgcm \citep{Marshall1997,Marshall1997b} is used to solve the equations of motion, and the scientific Python stack to analyze the output \citep{Hoyer2017,Hunter2007,Kluyver2016,Perez2007,VanDerWalt2011}.
 
 [Suggest asking Hajoon to make Fig.4 look a little different. It has now been used several times before. Would it help to make Fig.5 a panel in Fig.6 - perhaps panel b? But then the symmetry between Figs.6 and 9 is lost.....
-Fig.8 is a bit miserable - change color scale for SST? Something needs to be done.]
+Fig.8 is a bit miserable - change color scale for SST? Something needs to be done. XXX]
 \begin{figure}[!ht]
     \begin{center}
-        \includegraphics[width=0.9\textwidth]{figures/channel_3d_nobox.png}
+        \includegraphics[width=0.9\textwidth]{figures/T_snapshot_3D.pdf}
         \caption{Overview of the idealized reentrant eddy-resolving channel control solution using MITgcm \citep{Marshall1997,Marshall1997b} showing the instantaneous wintertime sea ice concentration, temperature, and salinity fields, as well as the time-averaged residual overturning circulation. The model is driven by Coordinated Ocean Research Experiments Corrected Normal Year Forcing winds and fluxes. Note the presence of cold, fresh water at the surface in the region of the seasonal ice zone and a pronounced temperature inversion below. Note that the channel is approximately 5\% the length of the Antarctic Circumpolar Current, so $\Psi_{res}$ should be multiplied by $\sim$20 to obtain a global overturning strength.}
-        \label{fig:channel_overview}
+        \label{fig:T_snapshot_3D}
     \end{center}
 \end{figure}
 
